@@ -40,4 +40,4 @@ Either have it load on mount or have it load after a click of a button.
 (Try it out using async/await ~ try/catch syntax)
 (Best practice would be to put fetch logic in an external file and import it, try it out after you've finalized step 2).
 
-3. Diplay fetch results as some UI component, please display the username, 
+3. Display fetch results as some UI component (just one result for now), please display the username and picture. Style does not matter, have fun with it or not. 
