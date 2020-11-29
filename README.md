@@ -1,12 +1,12 @@
-## This is a beginner REact mock interview repo
+## This is a beginner React mock interview repo
 
-This project was inspired by Ben Awad: [Link](https://www.youtube.com/watch?v=gnkrDse9QKc&feature=youtu.be&ab_channel=BenAwad)
+This project was inspired by Ben Awad's [video](https://www.youtube.com/watch?v=gnkrDse9QKc&feature=youtu.be&ab_channel=BenAwad) 'Beginner React.js Conding Interview (ft. Clement Mihailescu).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-## `npm install`
+###  `npm install`
 
 ### `npm start`
 
@@ -31,6 +31,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## `Prompt` 
+## Prompt 
 
-1) Build a counter feature. Don't worry about styling, just make a button and each time that you click this button a counter goes up by one.
+1. Build a counter feature. Don't worry about styling, just make a button and each time that you click this button a counter goes up by one.
+
+2. Fetch data from this api https://randomuser.me/api and display it as a string in the DOM.
