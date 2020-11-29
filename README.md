@@ -35,4 +35,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. Build a counter feature. Don't worry about styling, just make a button and each time that you click this button a counter goes up by one.
 
-2. Fetch data from this api https://randomuser.me/api and display it as a string in the DOM.
+2. Fetch data from this api https://randomuser.me/api and display it as a string on the DOM.
+Either have it load on mount or have it load after a click of a button.
+(Try it out using async/await ~ try/catch syntax)
+(Best practice would be to put fetch logic in an external file and import it, try it out after you've finalized step 2).
+
+3. Diplay fetch results as some UI component, please display the username, 
