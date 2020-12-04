@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 
+// create some tests to test props and what is getting rendered
+
 function App() {
 
   const [ counter, setCounter ] = useState(0);
@@ -29,7 +31,7 @@ function App() {
     try { 
       // Make a request 
       const {data} = await axios.get(`https://randomuser.me/api?page=${number}`)
-      // setUserData(JSON.stringify(data, null, 2));
+      console.log(JSON.stringify(data, null, 2));
       return data;
     } catch (err) {
       console.log(err)
